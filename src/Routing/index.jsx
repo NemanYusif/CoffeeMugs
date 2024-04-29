@@ -1,17 +1,17 @@
-// import React from "react";
-// import { Route, Routes } from "react-router";
-// import { MyRoutes } from "../MyRoutes";
+import React from "react";
+import { Route, Routes } from "react-router";
+import MyRoutes from "../MyRoutes";
 
-// const Routing = () => {
-//   return (
-//     <div>
-//       <Routes>
-//         {MyRoutes.map(({ id, path, element, title }) => {
-//           return <Route key={id} path={path} element={element} title={title} />;
-//         })}
-//       </Routes>
-//     </div>
-//   );
-// };
+const Routing = () => {
+  return (
+    <div>
+      <Routes>
+        {MyRoutes.map(({ id, path, element, title }) => {
+          return <Route key={id} path={path} element={element} title={title} />;
+        })}
+      </Routes>
+    </div>
+  );
+};
 
-// export default Routing;
+export default Routing;

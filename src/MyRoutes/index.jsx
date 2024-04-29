@@ -6,7 +6,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import StyleGuide from "../pages/StyleGuide";
 
-export const MyRoutes = () => [
+const MyRoutes = [
   {
     id: 1,
     path: "/",
@@ -44,3 +44,4 @@ export const MyRoutes = () => [
     title: "StyleGuide Page",
   },
 ];
+export default MyRoutes;
